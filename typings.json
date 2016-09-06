@@ -1,0 +1,12 @@
+{
+  "name": "react-faux-dom",
+  "main": "lib/ReactFauxDOM.d.ts",
+  "homepage": "https://github.com/Olical/react-faux-dom#readme",
+  "version": "3.0.0",
+  "globalDevDependencies": {
+    "node": "registry:env/node#6.0.0+20160902022231"
+  },
+  "devDependencies": {
+    "blue-tape": "registry:npm/blue-tape#0.2.0+20160723033700"
+  }
+}
