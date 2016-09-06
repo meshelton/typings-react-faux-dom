@@ -5,7 +5,7 @@ import {ReactElement} from "react";
  * you can skip the declare namespace and export what's inside directly.
  */
 declare namespace ReactFauxDOM {
-  interface Element extends Element {
+  interface Element {
     toReact(): ReactElement<any>
   }
   interface Window {
