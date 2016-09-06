@@ -6,7 +6,7 @@ import RealElement = require("./");
  * you can skip the declare namespace and export what's inside directly.
  */
 
-type RealElement = Element;
+//type RealElement = Element;
 declare namespace ReactFauxDOM {
   interface Element extends RealElement {
     toReact(): ReactElement<any>
